@@ -2,7 +2,7 @@ import uuid
 import streamlit as st
 from ai_engine import ChatBotEngine
 
-st.set_page_config(page_title="AI Chatbot Studio", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Sujoy's Chat Bot", page_icon="🤖", layout="wide")
 
 # 🛠️ 1. INITIALIZE BACKEND CONFIGURATION
 if "bot_engine" not in st.session_state:
